@@ -1,0 +1,3 @@
+Difference between Simple component and Pure component:
+1. Pure Component performs a shallow comparison of the component's props and state before deciding to re-render whereas Simple Component does not implement a shallow comparison, leading to unnecessary re-renders even if the props or state have not changed.
+2. Pure Component improves performance by avoiding re-renders when props and state don't change whereas, Simple Component does not optimize the performance as it re-renders even when props and state dont not change. 
